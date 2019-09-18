@@ -24,8 +24,8 @@ cd ./../PictureServer
 docker build -t picserver .
 
 # Run docker
-mkdir -p /temp/www/html/resources
-docker run -v /temp/www/html/resources:/static/img --name picserver -d -p 8020:8020 picserver:latest &
+mkdir -p /tmp/www/html/resources
+docker run -v /tmp/www/html/resources:/static/img --name picserver -d -p 8020:8020 picserver:latest &
 docker image prune -f
 
 
