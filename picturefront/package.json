@@ -1,0 +1,36 @@
+{
+  "name": "picturefront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.2",
+    "bootstrap": "^4.3.1",
+    "react": "^16.8.3",
+    "react-bootstrap": "^1.0.0-beta.5",
+    "react-dom": "^16.8.3",
+    "react-scripts": "2.1.5",
+    "react-svg": "^7.2.9"
+  },
+  "scripts": {
+    "start": "SET PORT=3020 & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "add": "^2.0.6",
+    "node-sass": "^4.11.0",
+    "react-svg-loader": "^2.1.0",
+    "sass-loader": "^7.1.0",
+    "yarn": "^1.13.0"
+  }
+}

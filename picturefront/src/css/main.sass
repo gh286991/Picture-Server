@@ -1,0 +1,117 @@
+$color_content_back: #FFFCF2
+    
+*
+	// border: solid 1px #777
+
+.Box
+    margin: 0px auto
+    text-align: center
+
+.Card
+    display: inline-block
+    vertical-align: top
+    width: 300px
+    height: 100%
+    // border: 1px solid #FF0000
+    border-radius: 10px
+    margin: 15px
+    background: $color_content_back
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2), 0px 25px 60px -10px rgba(0,0,0,0.3)
+    img
+        max-width: 200px
+        max-height: 200px
+        cursor: pointer
+    img:hover
+        opacity: 0.5
+    video
+        width: 260px
+        height: 300px
+        margin-top: 15px
+    .filename
+        margin: 10px
+        text-align: center
+        word-wrap: break-word
+
+.upload
+    margin: 50px
+    margin-bottom: 20px
+
+.uploadinside
+    text-align: center
+.preview
+    font-size: 25px
+    margin: 20px
+    img
+        // border: 10px solid #FF0000
+        max-width: 95%
+
+.UploadDialog
+    // border: 10px solid #FF0000
+    // width: 900px
+
+
+$Delet_width: 6px
+$Delet_height: 25px
+$origin: 9.5px
+$cross_color: #FF7744
+
+.Delet
+    margin-left: 279px
+    margin-top: 5px
+    margin-bottom: -10px
+    background: $cross_color
+    height: $Delet_height
+    position: relative
+    width: $Delet_width
+    // left: 50px
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2), 0px 25px 60px -10px rgba(0,0,0,0.3)
+    transform: rotate(-45deg)
+    cursor: pointer
+ 
+.Delet:after 
+    background: $cross_color
+    content: ""
+    height: $Delet_width
+    left: -$origin
+    position: absolute
+    top: $origin
+    width: $Delet_height
+    // box-shadow: 0px 0px 20px rgba(0,0,0,0.2), 0px 25px 60px -10px rgba(0,0,0,0.3)
+
+.Delet:hover
+    opacity: 0.5
+
+.DeletPic
+    img
+        max-width: 98%
+
+.Load
+    text-align: center
+    margin-top: 25px
+    width: 140px
+    height: 100px
+
+.refresh
+    width: 100%
+    margin-top: 400px
+    .Load
+        // border: 10px solid #FF0000
+        margin-right: auto
+        margin-left: auto
+        text-align: center
+
+.DL
+    background-color: $cross_color
+    // opacity: 0
+
+@media screen and (min-width: 100px) and (max-width: 500px)
+    .Card
+        width: 155px
+        height: 100%
+        img
+            max-width: 95%
+            margin-top: 15px
+    .Delet
+        margin-left: 87%
+        margin-top: 5px
+        margin-bottom: -10px
