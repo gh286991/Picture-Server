@@ -28,7 +28,7 @@
   ],
   "devDependencies": {
     "add": "^2.0.6",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react-svg-loader": "^2.1.0",
     "sass-loader": "^7.1.0",
     "yarn": "^1.13.0"
